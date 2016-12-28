@@ -1,7 +1,10 @@
+html{
+	font-size: 100%;	
+}
+
 body{
 	font-family: "Crimson Text", serif;
 	background-color: #F2FFFC;
-	font-size: 120%;
 	line-height: 1.5	
 }
 
@@ -14,9 +17,9 @@ h1, h2 {
 	text-align: center;
 	background-color: #851944;
 	color: #fff;	
-	padding: 25px;
-	border-bottom: 10px solid #000;
-	font-size: 60px;
+	padding: 2rem;
+	border-bottom: 1rem solid #000;
+	font-size: 300%;
 	text-transform: uppercase;
 }
 
@@ -31,24 +34,24 @@ main a {
 
 p{
 	text-align: justify;
-	margin: 20px 0;
+	margin: 2rem 0;
 }
 
 .navegacao-site h1{
-	font-size: 30px;
-	margin-bottom: 25px;
+	font-size: 120%;
+	margin-bottom: 2rem;
 	text-transform: uppercase;
 }
 
 .principal{
-	width: 720px;
+	width: 36rem;
 	margin: auto;
-	padding: 30px 0;
-	padding-bottom: 80px;
+	padding: 1.5rem 0;
+	padding-bottom: 4rem;
 }
 
 h2{
-	font-size: 30px;
+	font-size: 200%;
 	clear: both;
 }
 
@@ -60,19 +63,19 @@ h2{
 	float: right;
 	width: 20%;	
 	position: relative;
-	top: 300px;	
+	top: 18.75rem;	
 }
 
 .foto-joao, .navegacao-site{
 	float: right;
 	box-sizing: border-box;
-	border-bottom: 10px solid #000;
-	border-left: 10px solid #000;
+	border-bottom: 0.5rem solid #000;
+	border-left: 0.5rem solid #000;
 	
 }
 
 .foto-joao{
-	width: 300px;
+	width: 18.75rem;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -87,7 +90,7 @@ nav a{
 .rodape-pagina{
 	background-color: #000;
 	color: #F2FFFC;
-	padding: 20px;
+	padding: 1rem;
 	clear:both;
 	position: fixed;
 	bottom: 0;
